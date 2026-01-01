@@ -1,17 +1,5 @@
-import Features from "./components/Features";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import HowItWorks from "./components/HowItWorks";
-import Navbar from "./components/Navbar";
+import Landing from "./pages/Landing";
 
 export default function App() {
-  return (
-    <div className="app">
-      <Navbar />
-      <Hero />
-      <HowItWorks />
-      <Features />
-      <Footer />
-    </div>
-  );
+  return <Landing />;
 }
